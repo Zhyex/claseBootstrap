@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    text-align: center;
+    margin:5px;
+}
+.form form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    font-size: small;
+}
+/* .form form label{
+    text-align: center;
+} */
+
+.form form input{
+    /* background-color: aquamarine; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button{
+    background-color: rgb(78, 185, 78);
+    border: 1px solid rgb(78, 185, 78);
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80px;
+}
